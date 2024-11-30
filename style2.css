@@ -1,0 +1,574 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@550&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'inter', sans-serif;
+overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(26, 9, 63);
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.gmail {
+    transform: translateY(7px);
+    color: white;
+}
+
+.left {
+    display: flex;
+    width: 10.3rem;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.center {
+    font-family: 'inter', sans-serif;
+    transform: translateY(7px);
+    font-weight: 400;
+    /* Interpolated weight */
+}
+
+.center-text {
+    font-family: 'inter', sans-serif;
+    transform: translateY(7px);
+
+    font-weight: 400;
+    /* Interpolated weight */
+}
+
+.right {
+    display: flex;
+    width: 10.2rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.icons {
+    margin-right: 1.8px;
+
+}
+
+.nav-bar {
+    display: flex;
+    width: 99.7%;
+    align-items: center;
+    justify-content: space-evenly;
+    Height: 130px
+}
+
+.links {
+    display: flex;
+    color: rgb(26, 9, 63);
+    width: 39rem;
+    height: 1rem;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-135px, 10px);
+}
+
+
+.menu {
+    display: none;
+}
+
+.right-button {
+    background-color: rgb(253, 80, 86);
+    padding: 9px 36px;
+    border-radius: 25px;
+    border: none;
+    transform: translate(-120px);
+    font-weight: 600;
+    color: white
+}
+
+.red-circle-1 {
+    position: absolute;
+    top: 280px;
+    left: 40px
+}
+
+ul a {
+    padding: 0px 15px;
+    font-size: 16px;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 520;
+    /* Interpolated weight */
+    text-decoration: none;
+   
+}
+
+
+
+
+
+
+/* Flexbox layout for the cards */
+
+
+/* Flexbox layout for the cards */
+
+@media only screen and (max-width: 1771px) {
+    body{
+        overflow-x: hidden;
+    }
+
+@media only screen and (max-width: 1251px) {
+    body{
+        overflow-x: hidden;
+    }
+    .links {
+        display: none;
+    }
+
+    .right-button {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    body{
+        overflow-x: hidden;
+    }
+  
+    
+    
+}
+
+@media only screen and (max-width: 1018px) {
+    body{
+        overflow-x: hidden;
+    }
+    
+    header {
+        width: 100%;
+    }
+    
+  
+}
+
+@media only screen and (max-width: 992px) {
+ 
+   
+    header {
+        width: 100%;
+    }
+    
+}
+@media only screen and (max-width: 992px) {
+ 
+   
+    header {
+        width: 100%;
+    }
+    
+}
+
+
+@media only screen and (max-width: 860px) {
+    .center {
+        display: none;
+    }
+}
+}
+
+.Bruti-div p, 
+.Faisal-Mosque p, 
+.Lake-View-Park p {
+    text-align: justify;
+    margin-right: 20px;
+}
+
+.Faisal-Mosque img {
+    
+    border-radius: 8px;
+    transition: transform 0.5s ease;
+    display: block;
+}
+.pakistan-moment img {
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    display: block;
+}
+.Bruti-div img {
+    border-radius: 8px;
+    transition: transform 0.5s ease, box-shadow 0.3s ease;
+    display: block;
+}
+
+
+
+.Lake-View-Park img {
+    border-radius: 8px;
+    transition: transform 0.5s ease;
+    display: block;
+}
+
+
+.Faisal-Mosque img:hover,
+.pakistan-moment img:hover,
+.Bruti-div img:hover,
+.Lake-View-Park img:hover {
+    transform: scale(1.1);
+    
+}
+.ism-tiltle{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* sec9 */
+.sec9 {
+    width: 1115px;
+    height: 454px;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 38px;
+    opacity: 0px;
+    padding-top: 5rem;
+    /* Adding padding might help if margins are collapsing */
+    background-color: #FFCED0;
+}
+
+.sec9-card {
+    height: 450px !important;
+}
+
+.sec-9-heading {
+
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 70px;
+    text-align: left;
+
+}
+
+.emoji-globe {
+    border: none;
+    border-radius: 700px;
+    outline: none;
+    width: 30px;
+}
+
+.card-text-sec9 {
+    color: rgb(140, 132, 159);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+.Get-Started-btn {
+    background-color: rgb(253, 80, 86);
+    padding: 9px 31px;
+    border-radius: 25px;
+    border: none;
+    font-weight: 600;
+    color: white
+}
+
+  footer p{
+    color: rgb(147, 143, 156);
+  
+  }
+  
+  footer ul li{
+    
+    list-style: none;
+    color: rgb(147, 143, 156);
+    margin-left: -20px !important;
+    transition: color 0.3s ease;
+  }
+  .send-email{
+    width: 12.3rem;
+    height: 40px;
+    border: 1px solid rgb(140, 132, 159);
+    border-radius:20px;
+
+}
+.send-icon{
+    transform: translate(-46px,-3px);
+
+}
+@media only screen and (max-width: 992px) {
+   
+    .sec9-card {
+        height: 450px !important;
+    }
+    
+    .sec-9-heading {
+    
+        font-size: 40px;
+       
+        line-height: 50px;
+        text-align: left;
+    
+    }
+}
+
+
+
+@media only screen and (max-width: 767px) and (min-width: 567px) {
+    .Bruti-div img,
+    .Faisal-Mosque img {
+        width: 200px; /* Decrease image width */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+@media only screen and (max-width:1199px) and (min-width:  992px) {
+    .Bruti-div img,
+    .Faisal-Mosque img {
+        width: 310px; /* Decrease image width */
+        
+    }
+}
+
+
+
+@media only screen and (max-width: 452px) {
+   
+    .sec9-card {
+        height: 500px !important;
+    }
+    
+    .sec-9-heading {
+    margin-top: 0px !important;
+        font-size: 20px;
+       /* margin-bottom: -15px !important; */
+        line-height: 20px;
+        text-align: left;
+    
+    }
+    .card-text-sec9{
+        line-height: 200% !important;
+    }
+   
+}
+@media only screen and (max-width: 300px) {
+    .card-text-sec9{
+        line-height: 160% !important;
+       
+        padding: 0px !important;
+        width: 260px;
+        position: relative;
+        top:-40px;
+    }
+    .sec-9-heading {
+        position: relative;
+        top:-40px;
+      
+        width:250px;
+          
+        
+        }
+}
+@media only screen and (max-width: 256px) {
+    .card-text-sec9{
+      
+       
+        position: relative;
+        top:-40px;
+        left:-40px
+    }
+    .sec-9-heading {
+        position: relative;
+        top:-40px;
+        left:-40px
+         
+        
+        }
+        .Get-Started-btn{
+width:150px;
+position: relative;
+top:0px;
+left:-40px
+      
+}
+}
+
+@media only screen and (max-width: 576px) {
+    .get-in-touch,.catagories{
+        margin-left: 70px;
+}
+.quick-links{
+    /* border: 2px solid red; */
+ position: relative;
+ left:40px;
+}
+}
+@media only screen and (max-width: 1200px){
+.send-icon{
+    display: none;
+}
+}
+/* Initial styles */
+.links ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links ul li {
+    margin-right: 20px;
+}
+
+.menu {
+    display: none; /* Hide the menu button by default */
+    cursor: pointer;
+}
+
+/* Mobile menu */
+@media (max-width: 768px) {
+    .links ul {
+        display: none; /* Hide the menu links by default */
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: white;
+        width: 200px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .links ul li {
+        margin: 10px 0;
+    }
+
+    .menu {
+        display: block; /* Show the menu button on mobile */
+    }
+
+    .links ul.show {
+        display: flex; /* Show the menu when toggled */
+    }
+}
+.footer {
+    height: 80px !important;
+    background-color: #1A093F;
+    padding: 20px 10px;
+    color: #ffffff;
+}
+
+.footer-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.footer-copyright, .footer-links {
+    flex: 1;
+    text-align: center;
+}
+.footer-links p a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+#carouselExampleCaptions .carousel-inner img {
+    height: 400px; /* Adjust this value as needed */
+    object-fit: cover; /* Ensures the image scales properly without stretching */
+  }
+  #carouselExampleCaptions .carousel-inner img {
+    max-height: 400px; /* Adjust this value as needed */
+    width: 100%;
+    object-fit: cover;
+  }
+    
+
+  /* Initial position of the section off-screen */
+  @keyframes moveDown {
+    0% {
+      transform: translateY(-10vh) rotate3d(1, 1, 0, 30deg); /* Move from above and rotate */
+      opacity: 0; /* Initially hidden */
+    }
+    100% {
+      transform: translateY(0) rotate3d(1, 1, 0, 0deg); /* End at normal position with no rotation */
+      opacity: 1; /* Fully visible */
+    }
+  }
+  
+  .animate-section {
+    animation: moveDown 1.5s ease-out forwards;
+  }
+  
+  
+  @keyframes moveUp {
+    0% {
+      transform: translateY(10vh) rotate3d(1, 1, 0, 30deg); /* Start from below the screen */
+      opacity: 0; /* Initially hidden */
+    }
+    100% {
+      transform: translateY(0) rotate3d(1, 1, 0, 0deg); /* End at normal position with no rotation */
+      opacity: 1; /* Fully visible */
+    }
+  }
+  
+  .animate-section-up {
+    animation: moveUp 1.5s ease-out forwards;
+  }
+  
+  /* Apply animation to the section */
+  .animate-section {
+    animation: moveDown 1.5s ease-out forwards;
+  }
+  
+  
+  @keyframes moveRight {
+    0% {
+      transform: translateX(-100vw) rotate3d(1, 1, 0, 30deg); /* Start from the left off-screen */
+      opacity: 0; /* Initially hidden */
+    }
+    100% {
+      transform: translateX(0) rotate3d(1, 1, 0, 0deg); /* End at normal position with no rotation */
+      opacity: 1; /* Fully visible */
+    }
+  }
+  
+  .animate-section-right {
+    animation: moveRight 1.5s ease-out forwards;
+  }
+  
+
+
+  @keyframes moveLeft {
+    0% {
+      transform: translateX(100vw) rotate3d(1, 1, 0, 30deg); /* Start from the right off-screen */
+      opacity: 0; /* Initially hidden */
+    }
+    100% {
+      transform: translateX(0) rotate3d(1, 1, 0, 0deg); /* End at normal position with no rotation */
+      opacity: 1; /* Fully visible */
+    }
+  }
+  
+  .animate-section-left {
+    animation: moveLeft 1.5s ease-out forwards;
+  }
+  
