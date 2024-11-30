@@ -645,31 +645,7 @@ left:-40px
     cursor: pointer;
 }
 
-/* Mobile menu */
-@media (max-width: 768px) {
-    .links ul {
-        display: none; /* Hide the menu links by default */
-        flex-direction: column;
-        position: absolute;
-        top: 60px;
-        right: 0;
-        background-color: white;
-        width: 200px;
-        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    }
 
-    .links ul li {
-        margin: 10px 0;
-    }
-
-    .menu {
-        display: block; /* Show the menu button on mobile */
-    }
-
-    .links ul.show {
-        display: flex; /* Show the menu when toggled */
-    }
-}
 .footer {
     height: 80px !important;
     background-color: #1A093F;

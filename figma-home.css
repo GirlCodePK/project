@@ -2253,7 +2253,7 @@ width: 500rem !important;
 .links ul {
     background-color:whitesmoke;
     list-style: none; /* Remove bullet points */
-    margin-left: 600px;
+    margin-left: 400px;
     padding: 0;
     text-align: center; /* Center-align links */
 }
