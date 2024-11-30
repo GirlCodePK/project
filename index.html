@@ -82,26 +82,36 @@
                 </svg>
             </span>
         </div>
-        <div class="links">
-            <ul>
-                <a href="index.html" style="color: rgb(253,80,86);">Home</a>
-                <a href="">About Us</a>
-                <a href="destinations.html">Destination</a>
-                <a href="">Tour Pakage</a>
-                <a href="">Blogs</a>
-                <a href="">Contact Us</a>
+        <button class="menu-button" onclick="toggleMenu()">☰</button>
+<div class="links nav-links" id="navLinks">
+    <ul>
+        <li><a href="index.html" style="color: rgb(253,80,86);">Home</a></li>
+        <li><a href="">About Us</a></li>
+        <li><a href="destinations.html">Destination</a></li>
+        <li><a href="">Tour Package</a></li>
+        <li><a href="">Blogs</a></li>
+        <li><a href="">Contact Us</a></li>
+    </ul>
+</div>
 
-            </ul>
-
-        </div>
-        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="66" fill="currentColor" class="menu"
-            viewBox="0 0 16 16">
-            <path fill-rule="evenodd"
-                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
-        </svg>
         <div>
-            <button class="right-button">view Tours</button>
+            <button class="right-button">LogIN</button>
         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
     </div>
     <!-- section#1 -->
     <div class="red-circle-1">
@@ -111,8 +121,8 @@
         </svg>
     </div>
     <div class="arrow">
-        <img width="120" height="60" src="imageshomepage\Arrow.png" alt=""><svg width="12" height="12" class="red-circle"
-            viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <img width="120" height="60" src="imageshomepage\Arrow.png" alt="">
+        
             <circle cx="6.00004" cy="6.27732" r="3.22922" fill="#FD5056" />
             <circle cx="6" cy="6.27734" r="5" stroke="#FD5056" />
         </svg>
@@ -11494,6 +11504,16 @@
         </div>
     </div>
 </footer>
+<script>
+   function toggleMenu() {
+    const navLinks = document.getElementById("navLinks");
+    if (navLinks.style.display === "block") {
+        navLinks.style.display = "none"; // Hide menu
+    } else {
+        navLinks.style.display = "block"; // Show menu
+    }
+}
 
+</script>
   
 </html>

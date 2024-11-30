@@ -81,26 +81,36 @@
                 </svg>
             </span>
         </div>
-        <div class="links">
-            <ul>
-                <a href="index.html" style="color: rgb(253,80,86);">Home</a>
-                <a href="">About Us</a>
-                <a href="destinations.html">Destination</a>
-                <a href="">Tour Pakage</a>
-                <a href="">Blogs</a>
-                <a href="">Contact Us</a>
+        <button class="menu-button" onclick="toggleMenu()">☰</button>
+<div class="links nav-links" id="navLinks">
+    <ul>
+        <li><a href="index.html" style="color: rgb(253,80,86);">Home</a></li>
+        <li><a href="">About Us</a></li>
+        <li><a href="destinations.html">Destination</a></li>
+        <li><a href="">Tour Package</a></li>
+        <li><a href="">Blogs</a></li>
+        <li><a href="">Contact Us</a></li>
+    </ul>
+</div>
 
-            </ul>
-
-        </div>
-        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="66" fill="currentColor" class="menu"
-            viewBox="0 0 16 16">
-            <path fill-rule="evenodd"
-                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
-        </svg>
         <div>
-            <button class="right-button">LogIn</button>
+            <button class="right-button">LogIN</button>
         </div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+        
     </div>
     
    
@@ -556,7 +566,20 @@ The Blue Lagoon is a renowned geothermal spa in Iceland, famous for its warm, mi
     
     // Change the image every 3 seconds
     setInterval(changeImage, 5000);
+
+
+    //
+    function toggleMenu() {
+    const navLinks = document.getElementById("navLinks");
+    if (navLinks.style.display === "block") {
+        navLinks.style.display = "none"; // Hide menu
+    } else {
+        navLinks.style.display = "block"; // Show menu
+    }
+}
+
     </script>
+
 </body>
 
 </html>

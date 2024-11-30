@@ -2240,6 +2240,39 @@ width: 500rem !important;
 
 
 
+.links {
+    display: none; /* Initially hide the menu */
+    position: absolute; /* Optional: Position for dropdown effect */
+    background-color: none; /* Background for the menu */
+    width: 60%; /* Full-width menu */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional styling */
+    padding: 10px 0; /* Optional padding */
+    z-index: 10; /* Ensure it appears above other elements */
+}
+
+.links ul {
+    background-color:whitesmoke;
+    list-style: none; /* Remove bullet points */
+    margin-left: 600px;
+    padding: 0;
+    text-align: center; /* Center-align links */
+}
+
+.links ul li {
+    margin: 10px 0; /* Spacing between links */
+}
+
+.links ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: black; /* Default link color */
+    font-size: 16px; /* Adjust font size */
+    transition: color 0.3s; /* Smooth hover effect */
+}
+
+.links ul li a:hover {
+    color: rgb(253,80,86); /* Change color on hover */
+}
+
 @media only screen and (max-width: 1251px) {
     .links {
         display: none;
@@ -2581,4 +2614,33 @@ width: 500rem !important;
             transform:  translateX(80px);
         }
     }
-
+    @media only screen and (max-width: 530px) {
+        header {
+            width: 170%; 
+        }
+    }
+    @media only screen and (max-width: 390px) {
+        header {
+            width: 190%; 
+        }
+    }
+    @media only screen and (max-width: 337px) {
+        header {
+            width: 200%; 
+        }
+    }
+    @media only screen and (max-width: 320px) {
+        header {
+            width: 210%; 
+        }
+    }
+    @media only screen and (max-width: 310px) {
+        header {
+            width: 216%; 
+        }
+    }
+    @media only screen and (max-width: 288px) {
+        header {
+            width: 220%; 
+        }
+    }
